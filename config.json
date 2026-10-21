@@ -1,0 +1,56 @@
+{
+  "activation_phrase": "its time to wake up",
+  "offline_mode": true,
+  "tts_voice": "",
+  "stt_backend": "windows_sapi",
+  "llm": {
+    "provider": "atria",
+    "api_key": "atr_TU7Prx9RouY3Oan0O6pitJ4cv1U0RMky",
+    "model": "Atria-Dawn",
+    "base_url": "https://api.atria-asi.ai/v1",
+    "max_tokens": 8192,
+    "temperature": 0.7,
+    "timeout": 30
+  },
+  "github": {
+    "token": "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",
+    "username": "Abolfazlshahmohamma",
+    "auto_sync_repos": true,
+    "watch_repos": [
+      "Kilo-Org/kilocode",
+      "Kilo-Org/docs",
+      "Kilo-Org/kilo-dev-mcp-server"
+    ]
+  },
+  "skills": {
+    "auto_discover": true,
+    "github_orgs": [
+      "Kilo-Org"
+    ],
+    "local_skills_dir": "skills_repo"
+  },
+  "voice": {
+    "wake_word": "hey agent",
+    "listen_timeout": 10,
+    "language": "en-US"
+  },
+  "gui": {
+    "theme": "dark",
+    "always_on_top": true,
+    "opacity": 0.95,
+    "window_size": [
+      480,
+      720
+    ]
+  },
+  "local_model": {
+    "enabled": false,
+    "model_path": "",
+    "model_type": "gguf"
+  },
+  "web_search": {
+    "enabled": true,
+    "engine": "duckduckgo",
+    "api_key": ""
+  }
+}
